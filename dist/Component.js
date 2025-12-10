@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/model/json/JSONModel"],(e,t)=>{"use strict";return e.extend("ui5.walkthrough.Component",{metadata:{interfaces:["sap.ui.core.IAsyncContentCreation"],manifest:"json"},init(){e.prototype.init.apply(this,arguments);const n={recepient:{name:"",age:"",dateinfo:(new Date).toLocaleDateString()}};const i=new t(n);this.setModel(i);try{this.getRouter().initialize()}catch(e){console.log(e.message,"could not initialise the router")}}})});
+//# sourceMappingURL=Component.js.map

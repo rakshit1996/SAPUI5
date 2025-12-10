@@ -4,7 +4,7 @@
   "description": "The UI5 walkthrough application",
   "scripts": {
     "start": "ui5 serve -o test/mockserver.html",
-    "build": "ui5 build --clean --dest dist"
+    "build": "ui5 build --clean-dest --dest dist"
   },
   "devDependencies": {
     "@ui5/cli": "^4.0.38",
