@@ -4,7 +4,7 @@
    xmlns:core="sap.ui.core">
    <Dialog
       id="helloDialog1"
-      title="Hello {/recepient/name}"
+      title="Hello Welcome to the Dialogue Box"
       text="welcome"
       draggable= "true"
       showCancelButton= "true"

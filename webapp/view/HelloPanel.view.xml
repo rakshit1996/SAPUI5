@@ -30,6 +30,7 @@
                                 class="myCustomButton"/>
                                 <!-- This is the buttpn for dialog box which open seperately via an dialog fragments -->
                             <Button     id="helloDialogButton"
+                                        text="Dialog Box"
                                         tooltip="{i18n>markAsRead}"
                                         press=".onMarkAsRead"
                                         icon="sap-icon://bell"
@@ -43,15 +44,15 @@
                                 tooltip = "{i18n>Name}"
                                 width="60%"
                                class="myCustomButton sapThemeHighlight-asColor myCustomText"/>
-                            <Input 
+                            <!-- <Input 
                                 value ="{/recepient/age}"
                                 description = "Age: {/recepient/age}"
-                                valueLiveUpdate="true"
+                                valueLiveUpdate="false"
                                 showClearIcon = "true" 
-                                placeholder = "Enter your Name "
+                                placeholder = "Enter your Age "
                                 tooltip = "{i18n>Name}"
                                 width="60%"
-                                class="myCustomButton sapThemeHighlight-asColor myCustomText"/>  
+                                class="myCustomButton sapThemeHighlight-asColor myCustomText"/>   -->
 			</content>
 	</Panel>
 
