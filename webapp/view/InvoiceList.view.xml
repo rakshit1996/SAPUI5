@@ -14,8 +14,9 @@ xmlns:mvc = "sap.ui.core.mvc">
                 group :true
                 }
     }">
-    <headerToolbar>
+    <headerToolbar >
         <Toolbar>
+        <Image src="images/sap-logo.svg" width="50px" height="60px"/>
         <Title text="{i18n>invoiceListTitle}"></Title>
         <ToolbarSpacer/>   <!--this is used to seperate the toolbar text and filter filed-->
         <SearchField 
